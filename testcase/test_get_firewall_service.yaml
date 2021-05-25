@@ -1,0 +1,9 @@
+#查看服务对象，如果name为空，表示查看所有
+- vdom:
+  name: service1
+
+- vdom:
+  name: service2
+
+- vdom:
+  name: service3

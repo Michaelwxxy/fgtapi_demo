@@ -1,0 +1,8 @@
+#查看nat地址池，如果name为空表示查看所有
+- vdom:
+  name: pool1
+
+- vdom:
+  name: pool2
+
+

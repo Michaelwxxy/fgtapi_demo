@@ -1,0 +1,11 @@
+#firewall address删除地址对象
+- vdom:
+  name: new_addr5
+
+- vdom:
+  name: new_addr2
+
+
+- vdom:
+  name: new_addr5
+

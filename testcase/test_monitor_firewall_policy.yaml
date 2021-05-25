@@ -1,0 +1,7 @@
+#查看IPv4策略返回的数据,如果policyid为空，则查看所有策略的数据
+- vdom:
+  policyid: 9
+
+
+- vdom:
+  policyid: 33

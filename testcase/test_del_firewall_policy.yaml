@@ -1,0 +1,12 @@
+#删除IPv4策略,IPv4策略通过policyid删除
+- vdom:
+  policyid: 1
+
+- vdom:
+  policyid: 2
+
+- vdom:
+  policyid: 3
+
+- vdom:
+  policyid: 4

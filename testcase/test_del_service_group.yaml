@@ -1,0 +1,6 @@
+#删除服务对象组
+- vdom:
+  name: new_service_grp1
+
+- vdom:
+  name: service_grp2

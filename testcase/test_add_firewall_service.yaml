@@ -1,0 +1,44 @@
+#添加服务对象
+#protocol类型IP：通过protocol_number指定IP协议号，0或空表示 any
+#protocol类型TCP/UDP/SCTP：通过tcp_portrange指定TCP端口，udp_portrange指定UDP端口，sctp_portrange指定SCTP端口
+
+#添加IP协议为50的服务对象
+- vdom:
+  name: service1
+  protocol: IP
+  tcp_portrange:
+  udp_portrange:
+  sctp_portrange:
+  protocol_number: 50
+  comment: service1
+
+#添加tcp端口为8000的服务对象
+- vdom:
+  name: service2
+  protocol: TCP/UDP/SCTP
+  tcp_portrange: 8000-8000
+  udp_portrange:
+  sctp_portrange:
+  protocol_number:
+  comment: service2
+
+#添加udp端口为69的服务对象
+- vdom:
+  name: service3
+  protocol: TCP/UDP/SCTP
+  tcp_portrange:
+  udp_portrange: 69-69
+  sctp_portrange:
+  protocol_number:
+  comment: service3
+
+#添加tcp端口为50000-60000的服务对象
+- vdom:
+  name: service4
+  protocol: TCP/UDP/SCTP
+  tcp_portrange: 50000-60000
+  udp_portrange:
+  sctp_portrange:
+  protocol_number:
+  comment: service4
+

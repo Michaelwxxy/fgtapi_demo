@@ -1,0 +1,16 @@
+#修改地址对象
+#如果名称不需要修改，new_name为空即可
+- vdom: root
+  name: addr1
+  new_name: new_addr1
+  subnet: 2.2.2.0/24
+  associated_interface: port1
+  comment: new_addr1
+
+#- vdom:
+#  name: addr2
+#  new_name: new_addr2
+#  subnet: 3.3.3.0/24
+#  associated_interface: port3
+#  comment: new_addr2
+

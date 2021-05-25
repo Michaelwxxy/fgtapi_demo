@@ -1,0 +1,6 @@
+#删除地址对象组
+- vdom:
+  name: new_grp1
+
+- vdom:
+  name: grp2

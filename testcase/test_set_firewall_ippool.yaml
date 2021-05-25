@@ -1,0 +1,17 @@
+#修改nat地址池，地址池类型(type)在模板文件中固定为overload
+#如果名称不需要修改，new_name为空即可
+- vdom:
+  name: pool1
+  new_name: new_pool1
+  startip: 1.1.1.1
+  endip: 1.1.1.1
+  comments: new_pool1
+
+- vdom:
+  name: pool2
+  new_name:
+  startip: 202.1.1.1
+  endip: 202.1.1.10
+  comments: pool2
+
+

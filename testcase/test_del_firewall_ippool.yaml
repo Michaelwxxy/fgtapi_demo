@@ -1,0 +1,8 @@
+#删除nat地址池
+- vdom:
+  name: new_pool1
+
+- vdom:
+  name: pool2
+
+

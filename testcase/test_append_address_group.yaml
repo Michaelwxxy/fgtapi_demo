@@ -1,0 +1,8 @@
+#给地址对象组添加一个新成员
+- vdom:
+  name: grp1
+  member: addr2
+
+- vdom:
+  name: grp1
+  member: addr3

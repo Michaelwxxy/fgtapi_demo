@@ -1,0 +1,7 @@
+#删除服务对象
+- vdom:
+  name: new_service1
+
+- vdom:
+  name: service2
+

@@ -1,0 +1,16 @@
+#修改vip对象，如果extintf为空，则设置为any，vip类型(type)在模板文件中固定为static-nat
+#portforward设置为disable，则为IP映射
+#portforward设置为enable，则对端口映射，protocol可以设置为tcp，udp，sctp，icmp
+#如果名称不需要修改，new_name为空即可
+
+- vdom:
+  name: vip1
+  new_name: new_vip1
+  extintf: port1
+  extip: 202.10.10.10
+  mappedip: 192.168.10.1
+  comment: vip1
+  portforward: enable
+  protocol: tcp
+  extport: 13389
+  mappedport: 3389

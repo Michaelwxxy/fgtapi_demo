@@ -1,0 +1,14 @@
+#添加nat地址池，地址池类型(type)在模板文件中固定为overload
+- vdom:
+  name: pool1
+  startip: 200.200.200.1
+  endip: 200.200.200.1
+  comments: pool1
+
+- vdom:
+  name: pool2
+  startip: 100.100.100.1
+  endip: 100.100.100.10
+  comments: pool2
+
+

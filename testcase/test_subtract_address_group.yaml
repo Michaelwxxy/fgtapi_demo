@@ -1,0 +1,8 @@
+#从地址对象组中移除一个成员
+- vdom:
+  name: grp1
+  member: addr2
+
+- vdom:
+  name: grp1
+  member: addr3

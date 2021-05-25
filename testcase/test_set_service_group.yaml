@@ -1,0 +1,18 @@
+#修改服务对象组，需要先添加好成员中的服务对象
+#如果名称不需要修改，new_name为空即可
+
+- vdom:
+  name: service_grp1
+  new_name: new_service_grp1
+  member:
+    - service1
+    - service2
+    - service3
+  comment: new_service_grp1
+
+- vdom:
+  name: service_grp2
+  new_name:
+  member:
+    - service1
+  comment: service_grp2

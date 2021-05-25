@@ -1,0 +1,18 @@
+#添加地址对象
+- vdom:
+  name: addr1
+  subnet: 1.1.1.0/24
+  associated_interface:
+  comment:
+
+#- vdom:
+#  name: addr2
+#  subnet: 2.1.1.0/24
+#  associated_interface:
+#  comment:
+#
+#- vdom:
+#  name: addr3
+#  subnet: 3.1.1.0/24
+#  associated_interface:
+#  comment:

@@ -1,0 +1,8 @@
+#从服务对象组中移除一个成员
+- vdom:
+  name: service_grp1
+  member: service3
+
+- vdom:
+  name: service_grp1
+  member: service4

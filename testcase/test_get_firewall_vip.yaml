@@ -1,0 +1,11 @@
+#查看vip对象，如果name为空则表示查看所有
+
+- vdom:
+  name: vip1
+
+- vdom:
+  name: vip2
+
+- vdom:
+  name: vip3
+

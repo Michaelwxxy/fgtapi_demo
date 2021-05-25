@@ -1,0 +1,6 @@
+#查看地址对象组，name为空表示查看所有
+- vdom:
+  name: grp1
+
+- vdom:
+  name: grp2

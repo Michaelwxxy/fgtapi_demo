@@ -1,0 +1,62 @@
+#添加IPv4策略
+#name为空则不修改原来的名称
+#当nat为enable时，默认为nat为出接口地址，如果是其他地址，可设置地址池，即poolname
+
+##添加一条不开启nat的策略
+#- vdom:
+#  name: policy1
+#  srcintf:
+#    - port1
+#  dstintf:
+#    - port2
+#  srcaddr:
+#    - addr1
+#  dstaddr:
+#    - all
+#  service:
+#    - service1
+#  action: accept
+#  nat: disable
+#  poolname:
+#  comments: policy1
+#
+##添加一条带nat的策略，如果poolname为空，则表示使用出接口进行nat转换
+#- vdom:
+#  name: policy2
+#  srcintf:
+#    - port1
+#    - port2
+#  dstintf:
+#    - port3
+#    - port4
+#  srcaddr:
+#    - addr1
+#    - addr2
+#  dstaddr:
+#    - grp1
+#  service:
+#    - service1
+#    - service2
+#  action: accept
+#  nat: enable
+#  poolname:
+#  comments: policy2
+
+#添加一条vip策略，dstaddr的值是vip对象
+- vdom:
+  name: policy4
+  srcintf:
+    - port1
+    - port3
+  dstintf:
+    - port2
+  srcaddr:
+    - all
+  dstaddr:
+    - vip1
+  service:
+    - HTTP
+  action: accept
+  nat:
+  poolname:
+  comments: policy4

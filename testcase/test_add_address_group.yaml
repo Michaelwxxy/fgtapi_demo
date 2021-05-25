@@ -1,0 +1,22 @@
+#添加地址对象组，需要先添加好成员中的地址对象
+- vdom:
+  name: grp1
+  member:
+    - addr1
+    - addr2
+  comment: grp1
+
+- vdom:
+  name: grp2
+  member:
+    - addr1
+    - addr3
+  comment: grp2
+
+
+- vdom:
+  name: grp3
+  member:
+    - addr1
+    - addr3
+  comment: grp3

@@ -1,0 +1,12 @@
+#查看IPv4策略,IPv4策略通过policyid查看，如果policyid为空则查看所有策略
+- vdom:
+  policyid: 33
+
+#- vdom:
+#  policyid: 2
+#
+#- vdom:
+#  policyid: 3
+#
+#- vdom:
+#  policyid: 4

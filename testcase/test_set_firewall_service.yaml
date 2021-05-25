@@ -1,0 +1,24 @@
+#修改服务对象
+#protocol类型IP：通过protocol_number指定IP协议号，0或空表示 any
+#protocol类型TCP/UDP/SCTP：通过tcp_portrange指定TCP端口，udp_portrange指定UDP端口，sctp_portrange指定SCTP端口
+#如果名称不需要修改，new_name为空即可
+
+- vdom:
+  name: service1
+  new_name: new_service1
+  protocol: IP
+  tcp_portrange:
+  udp_portrange:
+  sctp_portrange:
+  protocol_number: 89
+  comment: new_service1
+
+- vdom:
+  name: service2
+  new_name:
+  protocol: TCP/UDP/SCTP
+  tcp_portrange:
+  udp_portrange: 8000-8008
+  sctp_portrange:
+  protocol_number:
+  comment: service2

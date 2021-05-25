@@ -1,0 +1,11 @@
+#删除vip对象
+
+- vdom:
+  name: vip1
+
+- vdom:
+  name: vip2
+
+- vdom:
+  name: vip3
+

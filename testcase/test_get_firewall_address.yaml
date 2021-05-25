@@ -1,0 +1,10 @@
+#firewall address查看地址对象，如果name为空表示查看所有
+- vdom:
+  name: addr1
+
+#- vdom:
+#  name: addr2
+#
+#- vdom:
+#  name: addr3
+

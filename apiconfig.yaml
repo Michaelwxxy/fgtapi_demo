@@ -1,0 +1,10 @@
+host: 192.168.118.2:8443
+#如果method是tokenlogin，则使用tokenlogin方式，否则使用passwdlogin方式
+method:
+#API账号密码方式
+passwdlogin:
+             username: admin
+             password: forti3389
+#API token方式
+tokenlogin:
+             token: N6wsH6G84wcs8cxmnb3rrpNN00836x

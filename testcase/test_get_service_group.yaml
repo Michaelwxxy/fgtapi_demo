@@ -1,0 +1,6 @@
+#查看服务对象组，name为空表示查看所有
+- vdom:
+  name: service_grp1
+
+- vdom:
+  name: service_grp2

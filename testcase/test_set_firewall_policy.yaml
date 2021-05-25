@@ -1,0 +1,20 @@
+#修改IPv4策略，通过policyid指定修改的策略
+#如果名称不需要修改，new_name为空即可
+#当nat为enable时，默认为nat为出接口地址，如果是其他地址，可设置地址池，即poolname
+- vdom:
+  policyid: 1
+  name: new_policy1
+  srcintf:
+    - port4
+  dstintf:
+    - port5
+  srcaddr:
+    - grp2
+  dstaddr:
+    - all
+  service:
+    - service1
+  action: accept
+  nat: enable
+  poolname:
+  comments: new_policy1
